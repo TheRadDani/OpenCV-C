@@ -11,7 +11,7 @@ using namespace std;
 
 void main() {
 
-    string path = "C:\Users\schav\Downloads\computerV\computerV\computerV\Resources";
+    string path = "Resources/lambo.png";
     Mat img = imread(path);
     imshow("Image", img);
     waitKey(0);
